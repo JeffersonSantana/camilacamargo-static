@@ -3,7 +3,7 @@ version: '3.8'
 services:
   web:
     build: .  # Usa o Dockerfile do diretório atual
-    container_name: my-nginx-app  # Nome do container (opcional)
+    container_name: camilacamargo-static  # Nome do container (opcional)
     ports:
       - "80:80"  # Mapeia a porta 80 do host para a 80 do container
     restart: unless-stopped  # Reinicia automaticamente em caso de falha
